@@ -1,7 +1,12 @@
-#include "Menu.hpp"
+#include "List.hpp"
 
 int main(){
-    Menu M;
+    // Nascondo il cursore all'utente per migliorare la visibilità del gioco
+    CONSOLE_CURSOR_INFO info;
+    info.dwSize = 100;
+    info.bVisible = 0;
+    SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &info);
 
+    Menu M;
     return 0;
 }

@@ -1,0 +1,5 @@
+#include "Enemy.hpp"
+#include "Bullet.hpp"
+#include "Hero.hpp"
+#include "Bonus.hpp"
+#include "Platform.hpp"
